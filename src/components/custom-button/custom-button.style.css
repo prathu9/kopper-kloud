@@ -1,0 +1,10 @@
+.btn-default-style{
+    display:inline-block;
+    background-color: #E8A473;
+    padding:16px 32px;
+    font-size:16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    border-radius: 10px;
+    cursor:pointer;
+}

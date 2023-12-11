@@ -1,0 +1,132 @@
+.footer-container{
+    background-color: #002060;
+    max-width: 1440px;
+    height:332px;
+    min-width:320px;
+}
+
+.footer-wrapper{
+    display: flex;
+}
+
+.footer-logo-container{
+    width:163px;
+    height:52px;
+    margin:48px 198px 176px 150px;
+}
+
+.footer-container .quick-links,
+.footer-container .contact-links,
+.footer-container .social-links{
+    color:#fff;
+    margin:48px 198px 25px 0;
+}
+
+.footer-container .social-links{
+    margin-right:0;
+}
+
+.footer-container .quick-links h4,
+.footer-container .contact-links h4,
+.footer-container .social-links h4{
+    font-family: 'Lora', serif;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top:0;
+    margin-bottom:16px;
+    text-align: left;
+}
+
+.footer-container .quick-links ul{
+    padding-left:0;
+}
+
+.footer-container .quick-links ul li{
+    list-style-type: none;
+    text-align: left;
+    margin-bottom:10px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #BDBDBD;
+}
+
+.footer-container .contact-links div{
+    margin-bottom:13px;
+}
+
+.footer-container .contact-links div span{
+    margin-right:8px;
+    font-family: 'Lato', sans-serif;
+    font-family: 400;
+    color: #BDBDBD;
+}
+
+.footer-container .social-links span{
+    margin-right:16px;
+    width:24px;
+    height:24px;
+}
+
+.footer-container .social-links span img{
+    width:24px;
+    height:24px;
+}
+
+.citation-container{
+    height:56px;
+    background-color: inherit;
+}
+
+.citation-container .citation{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color:#fff;
+    line-height: 24px;
+    margin-top:24px;
+}
+
+@media screen and (max-width: 1340px){
+    .footer-wrapper{
+        justify-content: space-evenly;
+    }
+    .footer-logo-container{
+        margin:48px 20px 176px 20px;
+    }
+
+    .footer-container .quick-links,
+    .footer-container .contact-links,
+    .footer-container .social-links{
+        margin:48px 20px 25px 20px;
+    }
+}
+
+@media screen and (max-width:1125px){
+    .footer-container{
+        height:fit-content;
+    }
+
+    .footer-wrapper{
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .footer-logo-container {
+        margin: 48px 20px 20px 20px;
+    }
+
+    .footer-container .quick-links,
+    .footer-container .contact-links,
+    .footer-container .social-links{
+        width:80%;
+        margin:20px;
+    }
+
+    .footer-container .quick-links h4,
+    .footer-container .contact-links h4,
+    .footer-container .social-links h4,
+    .footer-container .quick-links ul li{
+        text-align: center;
+    }
+
+}

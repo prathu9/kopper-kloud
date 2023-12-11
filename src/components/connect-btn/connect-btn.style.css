@@ -1,0 +1,18 @@
+.header-wrapper .connect-btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile-nav-container .connect-btn-container{
+    margin-top:40px;
+    display: flex;
+    align-items: flex-start;
+    padding-left: 40px;
+}
+
+@media screen and (max-width:985px){
+    .header-wrapper .connect-btn-container{
+        display: none;
+    }
+}

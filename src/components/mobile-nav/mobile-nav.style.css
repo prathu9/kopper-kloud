@@ -1,0 +1,43 @@
+.mobile-nav-container{
+    position: fixed;
+    top:88px;
+    left:0;
+    background-color: #002060;
+    height:100vh;
+    animation: slideIn 250ms forwards ease-in-out;
+    z-index:20;
+}
+
+.mobile-nav-container ul{
+    color:#fff;
+    padding-left:0;
+    font-size: 24px;
+    font-family: 'Lato', sans-serif;
+}
+
+.mobile-nav-container ul li{
+    list-style-type: none;
+    text-align: left;
+    cursor: pointer;
+    background-color: rgba(0, 32, 96, 0.5);
+}
+
+.mobile-nav-container ul li a{
+    width:inherit;
+    height:inherit;
+    display:block;
+    padding: 20px 40px;
+}
+
+.mobile-nav-container ul li:hover{
+    background-color: rgba(57, 69, 93, 0.5);
+}
+
+@keyframes slideIn{
+    0%{
+        width:0;
+    }
+    100%{
+        width:100%;
+    }
+}
